@@ -55,6 +55,9 @@ The CleanCity Application is a user-friendly tool designed to help users identif
 
 3. The application will display the predicted class of waste along with the recommended disposal method.
 
+## Images
+
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.

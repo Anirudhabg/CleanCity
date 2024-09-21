@@ -60,6 +60,10 @@ This is the startup page
 
 ![Start Up Page](https://github.com/Anirudhabg/CleanCity/blob/166575fd2df0aaf1fae495746ff56190037de331/Images/StartUp.png)
 
+This is the upload page
+
+![Upload Page](https://github.com/Anirudhabg/CleanCity/blob/166575fd2df0aaf1fae495746ff56190037de331/Images/Upload.png)
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.

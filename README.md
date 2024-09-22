@@ -58,11 +58,11 @@ The CleanCity Application is a user-friendly tool designed to help users identif
 ## Images
 This is the startup page
 
-![Start Up Page](https://github.com/Anirudhabg/CleanCity/blob/166575fd2df0aaf1fae495746ff56190037de331/Images/StartUp.png)
+![Start Up Page](https://github.com/Anirudhabg/CleanCity/blob/4bcf7f6399462743920b45d89cde55ffe017d4dc/Images/StartUp.png)
 
 This is the upload page
 
-![Upload Page](https://github.com/Anirudhabg/CleanCity/blob/166575fd2df0aaf1fae495746ff56190037de331/Images/Upload.png)
+![Upload Page](https://github.com/Anirudhabg/CleanCity/blob/4bcf7f6399462743920b45d89cde55ffe017d4dc/Images/Upload.png)
 
 ## Contributing
 

@@ -6,9 +6,10 @@ import time
 import datetime
 
 date = datetime.datetime.now().strftime("%d - %m - %Y")
+
 # Path to the complaints file
 complaints_file_path = (
-    "C:/Users/LENOVO/Documents/GitHub/CleanCity/Complaints/complaints.json"
+    "C:/Users/LENOVO/Documents/Client_Server/AppOne/Complaints/complaints.json"
 )
 
 
@@ -48,31 +49,44 @@ def refresh_complaints(page):
     complaints = load_complaints()
     tasks.controls.clear()
     for i, task in enumerate(complaints):
+        border_color = (
+            ft.colors.GREEN if task["status"] == "Completed" else ft.colors.RED
+        )
         tasks.controls.append(
             ft.Container(
                 content=ft.Column(
                     controls=[
-                        ft.Text(f"Task {i + 1}",size=20),
+                        ft.Text(f"Task {i + 1}", size=20),
                         ft.Text(f"User: {task['user']}", style="headline6"),
                         ft.Text(f"Complaint: {task['complaint']}", style="body1"),
                         ft.Row(
                             controls=[
                                 ft.Column(
                                     controls=[
-                                        ft.Text(f"Phone Number: {task['phone_number']}", style="body2"),
-                                        ft.Text(f"Email: {task['email']}", style="body2"),
-                                        ft.Text(f"Status: {task['status']}", style="body2"),
-                                        ft.Text(f"Location: {task['location']}", style="body2"),
+                                        ft.Text(
+                                            f"Phone Number: {task['phone_number']}",
+                                            style="body2",
+                                        ),
+                                        ft.Text(
+                                            f"Email: {task['email']}", style="body2"
+                                        ),
+                                        ft.Text(
+                                            f"Status: {task['status']}", style="body2"
+                                        ),
+                                        ft.Text(
+                                            f"Location: {task['location']}",
+                                            style="body2",
+                                        ),
                                     ]
                                 ),
                             ],
-                            alignment=ft.MainAxisAlignment.SPACE_BETWEEN
+                            alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
                         ),
                     ],
                 ),
                 padding=8,
                 margin=4,
-                border=ft.border.all(2,ft.colors.WHITE),
+                border=ft.border.all(2, border_color),
                 border_radius=ft.border_radius.all(8),
                 on_click=lambda e, i=i: (
                     complete_task(page, i) if task["status"] == "Pending" else None
@@ -113,7 +127,7 @@ def main(page: ft.Page):
                 weight=ft.FontWeight.BOLD,
             ),
             ft.Text("Garbage Collector - Task List", size=20),
-            ft.Text(f"{date}",size=20),
+            ft.Text(f"{date}", size=20),
             tasks,
         ],
         spacing=10,

@@ -3,7 +3,9 @@ import json
 import os
 import threading
 import time
+import datetime
 
+date = datetime.datetime.now().strftime("%d - %m - %Y")
 # Path to the complaints file
 complaints_file_path = (
     "C:/Users/LENOVO/Documents/GitHub/CleanCity/Complaints/complaints.json"
@@ -111,6 +113,7 @@ def main(page: ft.Page):
                 weight=ft.FontWeight.BOLD,
             ),
             ft.Text("Garbage Collector - Task List", size=20),
+            ft.Text(f"{date}",size=20),
             tasks,
         ],
         spacing=10,

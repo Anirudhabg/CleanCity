@@ -1,0 +1,5 @@
+flet
+tensorflow
+flet
+pillow
+numpy

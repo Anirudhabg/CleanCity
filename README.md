@@ -2,14 +2,13 @@
 
 ## Overview
 
-The CleanCity Application is a user-friendly tool designed to help users identify the proper disposal methods for various types of waste. By leveraging machine learning and image processing, this application allows users to upload an image of waste, which is then classified, and the corresponding disposal method is provided.
+CleanCity is an innovative application designed to improve urban waste management. It helps users identify the proper disposal methods for different types of waste, allows them to report trash-related issues, and provides a real-time task management system for garbage collectors.
 
 ## Features
 
-- **Image Classification**: Uses a TensorFlow Lite model to classify waste types from uploaded images.
-- **Disposal Methods**: Provides users with proper disposal methods based on the classification results.
-- **User-Friendly Interface**: Built with Flet for an interactive and responsive user experience.
-- **Lightweight**: The application runs efficiently on local machines without requiring heavy resources.
+- **Waste Disposal Information**: Get detailed disposal methods for various types of waste.
+- **Complaint Registration**: Report areas with excessive trash directly through the app.
+- **Real-Time Task Management for Garbage Collectors**: Garbage collectors receive real-time tasks, can view reported trash locations, and update the status of their tasks.
 
 ## Technologies Used
 
@@ -18,6 +17,16 @@ The CleanCity Application is a user-friendly tool designed to help users identif
 - **Pillow (PIL)**: A Python Imaging Library used for image processing.
 - **NumPy**: A library for numerical operations in Python.
 
+## Installation
+To set up the CleanCity application locally, follow these steps:
+1. **Clone the repository**
+   ```bash
+     https://github.com/Anirudhabg/CleanCity.git
+   ```
+2. **Install Flet**
+   ```bash
+      pip install flet
+   ```
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.

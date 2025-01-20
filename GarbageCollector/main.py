@@ -9,7 +9,7 @@ date = datetime.datetime.now().strftime("%d - %m - %Y")
 
 # Path to the complaints file
 complaints_file_path = (
-    "C:/Users/LENOVO/Documents/Client_Server/AppOne/Complaints/complaints.json"
+    "C:/Users/LENOVO/Documents/GitHub/CleanCity/Complaints/complaints.json"
 )
 
 

@@ -12,13 +12,13 @@
 
 ## Technologies Used
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
-![Flet](https://img.shields.io/badge/Flet-UI%20Framework-blueviolet?logo=python)](https://flet.dev/)
-![TensorFlow Lite](https://img.shields.io/badge/TensorFlow_Lite-ML-orange?logo=tensorflow)](https://www.tensorflow.org/lite)
-![Pillow](https://img.shields.io/badge/Pillow-Image_Processing-yellow?logo=python)](https://python-pillow.org/)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-blue?logo=numpy)](https://numpy.org/)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-black?logo=pandas)](https://pandas.pydata.org/)
-![JSON](https://img.shields.io/badge/JSON-Data_Format-lightgrey?logo=json)](https://www.json.org/)
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)
+[![Flet](https://img.shields.io/badge/Flet-UI%20Framework-blueviolet?logo=python)](https://flet.dev/)
+[![TensorFlow Lite](https://img.shields.io/badge/TensorFlow_Lite-ML-orange?logo=tensorflow)](https://www.tensorflow.org/lite)
+[![Pillow](https://img.shields.io/badge/Pillow-Image_Processing-yellow?logo=python)](https://python-pillow.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-blue?logo=numpy)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-black?logo=pandas)](https://pandas.pydata.org/)
+[![JSON](https://img.shields.io/badge/JSON-Data_Format-lightgrey?logo=json)](https://www.json.org/)
 
 
 ## Installation

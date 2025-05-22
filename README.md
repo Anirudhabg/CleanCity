@@ -92,7 +92,7 @@ CleanCity/
 
 | User Module                                                                                   | Garbage Collector Module                                                                                             |
 | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| ![User Module](https://github.com/Anirudhabg/CleanCity/1.png) | ![Garbage Collector Module](https://github.com/Anirudhabg/CleanCity/2.png) |
+| ![User Module](https://github.com/Anirudhabg/CleanCity/blob/503eccc5d20d0a84fda156c4309682f4af0465aa/1.png) | ![Garbage Collector Module](https://github.com/Anirudhabg/CleanCity/2.png) |
 
 ## License
 
